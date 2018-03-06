@@ -1,8 +1,6 @@
 ### Schema
-DROP DATABASE IF EXISTS burgers_db;
-
-CREATE DATABASE burgers_db;
-USE burgers_db;
+CREATE DATABASE rtpc2zo6jrmjs088;
+USE rtpc2zo6jrmjs088;
 
 CREATE TABLE burgers
 (
