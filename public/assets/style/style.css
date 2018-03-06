@@ -1,0 +1,37 @@
+body{
+	 background-image: url(images/background.png); 
+	 background-size: cover;
+}
+
+.jumbotron{
+	text-align: center;
+	background: #e6e6e6;
+	opacity: 0.8;
+	color: black;
+	height: auto;
+}
+
+#readyHolder, #devouredHolder, .create-form{
+	background: #e6e6e6;
+	opacity: 0.92;
+	color: black;
+	padding: 30px;
+	margin-bottom: 30px;
+}
+
+
+#imageContainer{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.pimages{
+	border-style: solid;
+	border-color: white;
+    border-width: 5px;
+}
+
+h3 {
+	font-weight: bold;
+	text-align: 60%;
+}

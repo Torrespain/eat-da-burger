@@ -7,8 +7,7 @@ $(function(){
 			devoured:true
 		};
 
-		if (eat=== 0) {
-			console.log("hi")
+		if (eat === 0) {
 			$.ajax({
 	  			method:"PUT",
 	  			data: eatenState,
@@ -19,7 +18,6 @@ $(function(){
 	 			 }
 			);
 		}
-
 	});
 
 
@@ -40,10 +38,7 @@ $(function(){
 				console.log("new burger added: ",data);
 				location.reload();
 			}
-
 		);
-
-
 	});
 
 });
