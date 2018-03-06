@@ -20,7 +20,34 @@ $(function(){
 			);
 		}
 
+	});
 
+
+	$("#addButton").on("click", function(event){
+		event.preventDefault();
+		var newBurger ={
+			burger_name: $("#burgerText").val().trim(),
+		};
+
+		// var eatenState = {
+		// 	devoured:false
+		// };
+
+		console.log("newburger",newBurger);
+
+		$.ajax({
+
+			type: "POST",
+			url:"/api/burgers",
+			data: newBurger
+			
+		}).then(
+			function(data){
+				console.log("new burger added: ",data);
+				location.reload();
+			}
+
+		);
 
 
 	});

@@ -45,6 +45,7 @@ var orm = {
     var queryString = "SELECT * FROM " + tableInput + ";";
     connection.query(queryString, function(err, result) {
       if (err) {
+        console.log(err)
         throw err;
       }
       cb(result);
@@ -60,10 +61,12 @@ var orm = {
     queryString += printQuestionMarks(vals.length);
     queryString += ") ";
 
-    console.log(queryString);
+    console.log("balues with b",queryString);
+    console.log("balues with b",cols[1]);
 
     connection.query(queryString, vals, function(err, result) {
       if (err) {
+        console.log(err)
         throw err;
       }
 
@@ -82,6 +85,7 @@ var orm = {
     console.log(queryString);
     connection.query(queryString, function(err, result) {
       if (err) {
+        console.log(err)
         throw err;
       }
 
