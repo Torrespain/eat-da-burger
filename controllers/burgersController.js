@@ -6,7 +6,6 @@ var burger = require("../models/burger.js");
 
 router.get("/", function(req,res){
 	burger.all(function(data){
-		console.log("inside burger.all")
 		var hbsObject = {
      		burgers: data
 	    };
