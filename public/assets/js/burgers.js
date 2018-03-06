@@ -28,13 +28,7 @@ $(function(){
 		var newBurger ={
 			burger_name: $("#burgerText").val().trim(),
 		};
-
-		// var eatenState = {
-		// 	devoured:false
-		// };
-
-		console.log("newburger",newBurger);
-
+		
 		$.ajax({
 
 			type: "POST",
