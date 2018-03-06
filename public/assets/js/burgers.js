@@ -4,16 +4,15 @@ $(function(){
 		var eat = $(this).data("state");
 		
 		var eatenState = {
-
+			devoured:true
 		};
 
 		if (eat=== 0) {
 			console.log("hi")
-
-
 			$.ajax({
 	  			method:"PUT",
-	 			url:"/burgers/" + id 
+	  			data: eatenState,
+	 				url:"/api/burgers/" + id 
 			}).then(
 	  			function(data){
 	   				location.reload();
