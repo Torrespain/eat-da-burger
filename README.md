@@ -1,26 +1,25 @@
-# eat-da-burger
+# CrystalsCollector
 
 <h3>Description</h3>
+You will be given a random number at the start of the game
 
-This Restaurant app is a Burger Logger that uses MySQL, Node, Express, Handlebars and an ORM.
-The app lets the user input the names of the burgers they want to eat and will be stored on the left column ready to be eaten.
+There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score
 
-Once the user clicks the devour button, the burger will be "eaten by moving to the right column".
+You will win the game by matching your total score to a random number, you will loose the game if your total score goes above the random number
 
-The app will store every burger in a database, whether devoured or not.
+The value of each crystal is hidden from you until you click on it
 
+Each time, when the game starts, the game will change the values of each crystal!
 
 <h3>Technologies used</h3>
-- Express to handle routing <br>
-- Heroku to deploy and host the app <br>
-- ORM<br>
-- MySQL <br>
-- Handlebars
+- Javascript <br>
+- jQuery <br>
+- CSS<br>
+- HTML
 
-<h3>Demo</h3>
 
-<img src=public/assets/style/images/gif.gif>
+<h3>Link to the app</h3>
+https://torrespain.github.io/CrystalsCollector/
 
-<h3>Link to the app in Heroku</h3>
-https://damp-wildwood-76095.herokuapp.com/
-
+<h3>Screenshot</h3>
+<img src=assets/images/capture.jpg>
